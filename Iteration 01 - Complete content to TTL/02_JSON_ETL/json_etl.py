@@ -19,6 +19,8 @@ from apache_beam.io import WriteToText
 from apache_beam.options.pipeline_options import PipelineOptions
 from apache_beam.options.pipeline_options import SetupOptions
 
+# Reference: the pipeline was written based on the tutorial set out in as a template: https://beam.apache.org/get-started/wordcount-example/
+
 # DoFn class to write Turtle strings into TTL text files
 class WriteTurtles(beam.DoFn):
     def process(self, element):
