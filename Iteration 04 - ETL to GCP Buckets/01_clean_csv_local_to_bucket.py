@@ -1,3 +1,5 @@
+
+
 """
 01 Script to read in the raw .csv file to validate and extract the records into batched JSON files
 """
@@ -105,10 +107,6 @@ def run(src_path, res_path, batch_sz):
     # Name of bucket to read and write
     read_bucket_nm = 'fake_news_raw'
     write_bucket_nm = 'fake_news_cleaned_json'
-
-    # Check local destination directories exist, if not create them
-    if not os.path.exists(res_path):
-        os.path.makedirs(res_path)
 
     # Authenticate to GCP
     # Set environment variable to denote the location of the JSOn holding the authentication key
@@ -315,9 +313,9 @@ def run(src_path, res_path, batch_sz):
     loop_lines(Lines, beginning_lines_nr_ls, res_path, batch_sz)
 
 
-src_path = r'/Users/aaronaltrock/PycharmProjects/detect_fake_news_data_flow/Copy of news_cleaned_2018_02_13.csv'
-# src_path = r'/Users/aaronaltrock/PycharmProjects/detect_fake_news_data_flow/news_sample.csv'
-res_path = r'/Users/aaronaltrock/PycharmProjects/detect_fake_news_data_flow/json_src'
+src_path = r'/home/aaron_altrock/PycharmProjects/detect_fake_news_data_flow/Copy of news_cleaned_2018_02_13.csv'
+# src_path = r'/home/aaron_altrock/PycharmProjects/detect_fake_news_data_flow/news_sample.csv'
+res_path = r'/home/aaron_altrock/PycharmProjects/detect_fake_news_data_flow/json_src'
 # batch_sz = 500
 batch_sz = 1
 run(src_path, res_path, batch_sz)
