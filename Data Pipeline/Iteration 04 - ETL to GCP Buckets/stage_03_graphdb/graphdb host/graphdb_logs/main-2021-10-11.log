@@ -1,0 +1,1211 @@
+[INFO ] 2021-10-11 00:00:00,498 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 00:00:00,502 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 00:00:08,238 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 00:00:08,251 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 00:00:11,948 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 00:00:11,950 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 00:00:15,250 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 00:00:15,259 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 00:00:28,546 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 00:00:28,551 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 00:00:45,574 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 00:00:47,957 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 00:00:47,964 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 00:03:20,452 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 00:03:20,461 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 00:03:22,714 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:03:22,720 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:07:56,098 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:07:56,114 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:07:57,839 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:07:57,854 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:07:58,870 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:07:58,875 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:07:59,756 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:07:59,760 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:12:13,154 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:12:13,160 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:12:14,688 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:12:14,693 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:12:23,364 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 00:12:23,367 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 00:20:49,766 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 00:20:49,917 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 00:20:52,159 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:20:52,166 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:22:51,114 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:22:51,122 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:22:56,652 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 00:22:56,656 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 00:23:01,168 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 00:23:01,171 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 00:23:06,958 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:23:06,968 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:23:18,114 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:23:18,121 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:29:34,024 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:29:34,030 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:29:34,889 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:29:34,894 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:39:41,934 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:39:41,950 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:39:43,333 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:39:43,339 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:41:32,716 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:41:32,728 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:41:33,693 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:41:33,698 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:41:34,576 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:41:34,581 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:42:47,819 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:42:47,827 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:42:52,199 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:42:52,211 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:45:02,902 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:45:02,915 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:46:51,568 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:46:51,575 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:46:52,513 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:46:52,520 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:46:53,399 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:46:53,405 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:46:54,261 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:46:54,272 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:46:55,139 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:46:55,145 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:48:00,886 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:48:00,892 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:48:02,183 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:48:02,194 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:50:33,224 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:50:33,232 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 00:50:34,227 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 00:50:34,232 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 01:08:36,915 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 01:08:36,938 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 01:08:38,399 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 01:08:38,405 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 01:16:14,565 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 01:16:14,572 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 01:29:21,790 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 01:29:21,802 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 01:29:22,632 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 01:29:22,641 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 01:29:25,049 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 01:29:25,062 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 01:29:25,817 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 01:29:25,823 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 01:50:40,614 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 01:50:40,625 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:10:51,280 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:10:51,290 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:11:18,719 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:11:18,727 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:24:32,532 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:24:32,546 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:24:35,347 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:24:35,354 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:24:36,271 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:24:36,279 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:24:37,361 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:24:37,373 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:45:21,963 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:45:21,970 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:45:24,583 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:45:24,591 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:45:25,531 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:45:25,545 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:45:26,948 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:45:26,957 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:45:28,237 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:45:28,254 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:45:29,556 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:45:29,575 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:45:30,853 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:45:30,867 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:45:32,459 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:45:32,495 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:45:33,459 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:45:33,468 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 02:53:20,201 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 02:53:20,216 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:00,315 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:00,327 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:01,563 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:01,584 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:02,787 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:02,800 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:03,611 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:03,625 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:04,359 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:04,369 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:05,201 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:05,210 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:06,013 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:06,024 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:06,704 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:06,719 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:07,435 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:07,449 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:08,045 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:08,062 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:08,415 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:08,425 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:08,700 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:08,715 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:08,942 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:08,955 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:09,161 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:09,169 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:09,394 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:09,402 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:10,474 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:10,490 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:41,750 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:41,762 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:44,380 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:44,389 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:49,055 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:06:49,058 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:06:57,139 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:57,155 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:58,335 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:58,353 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:06:59,290 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:06:59,304 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:07:00,301 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:07:00,313 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:09:54,800 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:09:54,819 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:10:01,618 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:10:01,625 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:10:02,928 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:10:02,955 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:14:53,245 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:14:53,254 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:14:56,755 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:14:56,767 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:14:59,084 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:14:59,092 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:15:00,971 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:15:00,983 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:15:01,717 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:15:01,730 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:15:09,860 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:15:09,880 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:15:10,805 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:15:10,816 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:15:11,601 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:15:11,617 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:15:12,460 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:15:12,541 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:15:14,448 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:15:14,459 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:15:46,733 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:15:46,735 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:15:52,509 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:15:52,519 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:16:04,049 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:16:04,076 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:16:07,753 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:16:12,468 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:16:12,471 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:16:17,508 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:16:17,512 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:16:29,763 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:16:29,766 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:16:29,785 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:16:29,789 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:16:29,986 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:16:29,995 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:17:07,203 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:17:07,206 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:17:08,778 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:17:12,575 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:17:12,594 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:17:26,123 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:17:26,135 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:17:27,626 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:17:27,628 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:17:29,967 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:17:29,971 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:17:31,962 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:17:31,973 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:17:33,059 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:17:33,083 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:17:34,038 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:17:34,047 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:19:38,847 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:19:38,886 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 03:20:48,603 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:20:48,611 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:21:08,593 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 03:21:08,596 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 03:21:10,680 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 03:21:10,690 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[WARN ] 2021-10-11 07:11:44,526 [http-nio-7200-exec-6 | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] Failure in @ExceptionHandler com.ontotext.forest.core.ForestErrorController#handleGeneric(Exception)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:776)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:681)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:287)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator._flushBuffer(UTF8JsonGenerator.java:2177)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1190)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:346)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:45)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:84)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:466)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1344)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:584)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:528)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:546)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:110)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+	at org.apache.coyote.Response.doWrite(Response.java:601)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:339)
+	... 61 common frames omitted
+[WARN ] 2021-10-11 07:29:25,220 [http-nio-7200-exec-5 | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] Failure in @ExceptionHandler com.ontotext.forest.core.ForestErrorController#handleGeneric(Exception)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:776)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:681)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:287)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator._flushBuffer(UTF8JsonGenerator.java:2177)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1190)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:346)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:45)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:84)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:466)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1344)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:584)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:528)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:546)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:110)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+	at org.apache.coyote.Response.doWrite(Response.java:601)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:339)
+	... 61 common frames omitted
+[WARN ] 2021-10-11 07:29:59,105 [http-nio-7200-exec-9 | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] Failure in @ExceptionHandler com.ontotext.forest.core.ForestErrorController#handleGeneric(Exception)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:776)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:681)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:287)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator._flushBuffer(UTF8JsonGenerator.java:2177)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1190)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:346)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:45)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:84)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:466)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1344)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:584)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:528)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:546)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:110)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+	at org.apache.coyote.Response.doWrite(Response.java:601)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:339)
+	... 61 common frames omitted
+[WARN ] 2021-10-11 07:30:12,618 [http-nio-7200-exec-3 | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] Failure in @ExceptionHandler com.ontotext.forest.core.ForestErrorController#handleGeneric(Exception)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:776)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:681)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:287)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator._flushBuffer(UTF8JsonGenerator.java:2177)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1190)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:346)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:45)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:84)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:466)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1344)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:584)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:528)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:546)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:110)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+	at org.apache.coyote.Response.doWrite(Response.java:601)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:339)
+	... 61 common frames omitted
+[WARN ] 2021-10-11 07:30:13,767 [http-nio-7200-exec-8 | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] Failure in @ExceptionHandler com.ontotext.forest.core.ForestErrorController#handleGeneric(Exception)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:776)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:681)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:287)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator._flushBuffer(UTF8JsonGenerator.java:2177)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1190)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:346)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:45)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:84)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:466)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1344)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:584)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:528)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:546)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:110)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+	at org.apache.coyote.Response.doWrite(Response.java:601)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:339)
+	... 61 common frames omitted
+[WARN ] 2021-10-11 07:30:17,082 [http-nio-7200-exec-7 | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] Failure in @ExceptionHandler com.ontotext.forest.core.ForestErrorController#handleGeneric(Exception)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:776)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:681)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:287)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator._flushBuffer(UTF8JsonGenerator.java:2177)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1190)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:346)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:45)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:84)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:466)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1344)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:584)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:528)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:546)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:110)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+	at org.apache.coyote.Response.doWrite(Response.java:601)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:339)
+	... 61 common frames omitted
+[WARN ] 2021-10-11 07:30:40,858 [http-nio-7200-exec-1 | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] Failure in @ExceptionHandler com.ontotext.forest.core.ForestErrorController#handleGeneric(Exception)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:776)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:681)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:287)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator._flushBuffer(UTF8JsonGenerator.java:2177)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1190)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:346)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:45)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:84)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:466)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1344)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:584)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:528)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:546)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:110)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+	at org.apache.coyote.Response.doWrite(Response.java:601)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:339)
+	... 61 common frames omitted
+[INFO ] 2021-10-11 07:32:40,507 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:32:40,523 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:32:42,667 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:32:42,689 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[WARN ] 2021-10-11 07:45:09,750 [http-nio-7200-exec-4 | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] Failure in @ExceptionHandler com.ontotext.forest.core.ForestErrorController#handleGeneric(Exception)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:776)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:681)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:287)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator._flushBuffer(UTF8JsonGenerator.java:2177)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1190)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:346)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:45)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:84)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:466)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1344)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:584)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:528)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:546)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:110)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+	at org.apache.coyote.Response.doWrite(Response.java:601)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:339)
+	... 61 common frames omitted
+[INFO ] 2021-10-11 07:45:19,670 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:45:19,690 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:45:34,645 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:45:34,664 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:45:36,385 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:45:36,411 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:45:37,326 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:45:37,350 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:45:38,196 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:45:38,220 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:45:39,164 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:45:39,185 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:45:51,575 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:45:51,590 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:45:52,630 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:45:52,646 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:25,776 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:25,799 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:26,623 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:26,659 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:27,498 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:27,513 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:28,139 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:28,163 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:28,724 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:28,745 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:29,283 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:29,313 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:30,043 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:30,075 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:30,826 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:30,839 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:33,057 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:33,072 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:35,967 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:35,989 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:38,835 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:38,858 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:41,829 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:41,847 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:42,812 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:42,827 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:54,181 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:54,196 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:46:54,979 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:46:55,002 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:47:05,216 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:47:05,241 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:47:05,963 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:47:05,990 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:47:06,487 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:47:06,498 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:47:06,682 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:47:06,713 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:47:06,901 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:47:07,022 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:48:30,423 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:48:30,440 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:48:53,011 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:48:53,036 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:48:54,175 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:48:54,190 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:48:55,131 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:48:55,146 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:48:55,977 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:48:55,993 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:48:56,930 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:48:56,947 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:48:57,829 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:48:57,848 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:48:58,764 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:48:58,782 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:48:59,764 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:48:59,783 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:49:01,697 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:49:01,712 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:49:02,778 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:49:02,793 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:49:10,722 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:49:10,740 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:49:11,652 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:49:11,670 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:49:12,399 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:49:12,422 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:49:13,251 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:49:13,266 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:49:14,414 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:49:14,435 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 07:49:15,647 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 07:49:15,667 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[WARN ] 2021-10-11 07:50:01,947 [http-nio-7200-exec-2 | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] Failure in @ExceptionHandler com.ontotext.forest.core.ForestErrorController#handleGeneric(Exception)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:776)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:681)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:287)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator._flushBuffer(UTF8JsonGenerator.java:2177)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1190)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:346)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:45)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:84)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:466)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1344)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:584)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:528)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:546)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:110)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+	at org.apache.coyote.Response.doWrite(Response.java:601)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:339)
+	... 61 common frames omitted
+[INFO ] 2021-10-11 08:04:37,055 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 08:04:37,071 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 08:05:01,592 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 08:05:01,608 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 08:05:02,526 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 08:05:02,537 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 08:05:03,540 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 08:05:03,558 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 08:05:04,371 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 08:05:04,394 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 08:05:05,661 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 08:05:05,675 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 08:05:06,783 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 08:05:06,800 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 08:05:09,254 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 08:05:09,270 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 08:05:20,845 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 08:05:20,851 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 08:05:31,203 [repositories/src_fake_news | o.e.r.h.s.r.n.NamespacesController] GET namespace list
+[INFO ] 2021-10-11 08:05:31,208 [repositories/src_fake_news | o.e.r.h.s.r.TupleQueryResultView] Request for query 3392903 is finished
+[INFO ] 2021-10-11 08:05:32,971 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 08:05:32,987 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 08:05:34,466 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 08:05:34,484 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 08:05:35,471 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 08:05:35,546 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 08:05:36,382 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 08:05:36,394 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[WARN ] 2021-10-11 10:08:00,388 [http-nio-7200-exec-12 | o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver] Failure in @ExceptionHandler com.ontotext.forest.core.ForestErrorController#handleGeneric(Exception)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:776)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:681)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:287)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator._flushBuffer(UTF8JsonGenerator.java:2177)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1190)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:346)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.core.request.RequestFilter.doFilterInternal(RequestFilter.java:45)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.ontotext.forest.security.AdminDelegatingFilterProxy.doFilter(AdminDelegatingFilterProxy.java:84)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:466)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1344)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:584)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:528)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:546)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:110)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+	at org.apache.coyote.Response.doWrite(Response.java:601)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:339)
+	... 61 common frames omitted
+[INFO ] 2021-10-11 11:50:03,008 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 11:50:03,028 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
+[INFO ] 2021-10-11 11:50:05,839 [repositories/src_fake_news | c.o.g.s.RepositoryController] POST query -2018248740
+[INFO ] 2021-10-11 11:50:05,869 [repositories/src_fake_news | c.o.g.s.TupleQueryResultView] Request for query -2018248740 is finished
