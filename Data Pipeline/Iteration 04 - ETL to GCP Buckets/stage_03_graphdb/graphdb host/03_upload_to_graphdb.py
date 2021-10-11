@@ -43,6 +43,7 @@ def run(argv=None, save_main_session=True):
     files_ls = [files_nm for files_nm in files_ls if files_nm != 'config.ttl' and re.search('.ttl$', files_nm) is not None]
     print('List of files in {} excluding config.ttl:'.format(graph_db_import_path))
     print(files_ls)
+    print('No. of files to upload to GraphDB: {}'.format(len(files_ls)))
 
     # For each TTL file, run call POST to import TTL content to graph DB
     for file_nm in files_ls:
