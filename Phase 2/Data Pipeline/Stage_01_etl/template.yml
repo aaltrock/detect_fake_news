@@ -1,0 +1,53 @@
+# Mandatory descriptions
+source: "" # URL of the fake news source
+
+
+# Mandatory columns, minimum columns required for ingestion for knowledge graph
+# These columns will be mapped to the standard column names.
+mandatory_columns:
+  body:
+    column_name: "" # Column name for the body - must be string data type
+
+  url: # URL for the article
+    column_name: "" # Column name for the URL of the article - must be string data type
+
+  label:
+    column_name: "" # Column name to the classification of the article
+
+  title:
+    column_name: "" # Titles for article - must be string data type
+
+  file_name:
+    column_name: "" # Column name that holds the file name for this data set
+
+# Supplementary columns, additional columns that are catered to be incorporated in the knowledge graph
+# These columns will be mapped to the standard column names.
+# Leave column value as '' if there are no such columns
+supplementary_columns:
+
+  publication_date:
+    column_name: "" # Date of the publication - must be datetime
+
+  author:
+    column_name: "" # Author - must be string data type
+
+  detailed_news_label:
+    column_name: "" # Detailed news classification
+
+  language:
+    column_name: "" # Language of the article
+
+  classification_date:
+    column_name: "" # Date when the fake news was classification
+
+  country_of_origin:
+    column_name: "" # Country from where the publication was made
+
+
+# Custom columns
+# These values will be parsed into a single custom field table, retaining the original variable names.
+# Note: any columns not included below will be dropped from the source data
+custom_columns:
+  # Example
+  # - hasImage
+  # - text_without_stopwords
