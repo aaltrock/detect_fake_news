@@ -227,11 +227,6 @@ def run(argv=None, save_main_session=True):
         required=True,
         help='GCP cloud storage location where to store parsed files, if successful.')
     parser.add_argument(
-        '--processed_bucket_error',
-        dest='processed_bucket_error',
-        required=True,
-        help='GCP cloud storage location where to move file with errors in uploading to BigQuery.')
-    parser.add_argument(
         '--temp_location',
         dest='temp_location',
         required=True,
