@@ -11,7 +11,7 @@ source /home/aaron_altrock/PycharmProjects/detect_fake_news_data_flow_bs/venv/bi
 cd /home/aaron_altrock/PycharmProjects/detect_fake_news_data_flow_bs/
 
 # Run to compile into a template file using GCP's DataFlowRunner
-python3 main.py --region europe-west2 \
+python3 01_gcp_bucket_to_bigquery_dataflow.py --region europe-west2 \
 --input gs://src_fake_news_bs/to_add/*.parquet \
 --output gs://fake_news_ttl_json \
 --runner DataflowRunner \
