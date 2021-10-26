@@ -226,16 +226,16 @@ def run(argv=None, save_main_session=True):
         dest='processed_bucket_success',
         required=True,
         help='GCP cloud storage location where to store parsed files, if successful.')
-    parser.add_argument(
-        '--temp_location',
-        dest='temp_location',
-        required=True,
-        help='Temp location to hold files during Beam processing.')
-    parser.add_argument(
-        '--staging_location',
-        dest='temp_location',
-        required=True,
-        help='Staging locations.')
+    # parser.add_argument(
+    #     '--temp_location',
+    #     dest='temp_location',
+    #     required=True,
+    #     help='Temp location to hold files during Beam processing.')
+    # parser.add_argument(
+    #     '--staging_location',
+    #     dest='temp_location',
+    #     required=True,
+    #     help='Staging locations.')
     parser.add_argument(
         '--json_key_path',
         dest='json_key_path',
@@ -264,6 +264,9 @@ def run(argv=None, save_main_session=True):
         help='GCP source bucket name')
 
     known_args, pipeline_args = parser.parse_known_args(argv)
+
+    # Add known arguments to pipeline arguments
+    pipeline_args += ['--project', known_args.project]
 
     print('Arguments:')
     print(str(known_args))
