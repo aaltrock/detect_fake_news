@@ -241,11 +241,12 @@ def run(argv=None, save_main_session=True):
         dest='json_key_path',
         required=True,
         help='Location where JSON key file holds.')
-    parser.add_argument(
-        '--runner',
-        dest='runner',
-        required=True,
-        help='Runner to use')
+    # parser.add_argument(
+    #     '--runner',
+    #     dest='runner',
+    #     required=True,
+    #     default='DataflowRunner',
+    #     help='Runner to use')
     parser.add_argument(
         '--project',
         dest='project',
