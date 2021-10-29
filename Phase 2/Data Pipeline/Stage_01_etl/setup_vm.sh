@@ -21,6 +21,7 @@ mkdir -p /home/aaron_altrock/PycharmProjects/detect_fake_news_data_flow
 sudo apt-get install build-essential
 sudo apt-get install -y python3-venv
 sudo apt-get install git
+Sudo apt-get install python-pip
 cd /home/aaron_altrock/PycharmProjects/detect_fake_news_data_flow
 python3 -m venv ./venv
 
