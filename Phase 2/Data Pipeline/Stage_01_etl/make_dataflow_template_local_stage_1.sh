@@ -1,4 +1,4 @@
-# Script to run locally the Beam pipeline with the docker image (sourced from GCP Container Registry GCR)
+# Stage 01 pipeline - Script to run locally the Beam pipeline with the docker image (sourced from GCP Container Registry GCR)
 
 #Ref: https://cloud.google.com/dataflow/docs/guides/using-custom-containers#docker
 export PROJECT=fake-news-bs-detector
