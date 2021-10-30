@@ -73,7 +73,7 @@ class MakeRDFLibGraph(beam.DoFn):
 
         # Parse custom values (if any) to dictionary from string
         try:
-            custom_dct = json.loads(element.get('custom_columns').decode('UTF-8'))
+            custom_dct = json.loads(element.get('custom_columns'))
         except Exception as e:
             custom_dct = {}
 
@@ -83,20 +83,18 @@ class MakeRDFLibGraph(beam.DoFn):
         """
         Classes Triples
         """
-        # Define classes used in triples
-        classes_ls = [aa[col_nm] for col_nm in std_parse_items_ls]
-        if len(parse_cust_items_ls) > 0:
-            classes_ls += [aa[cust_nm] for cust_nm in parse_cust_items_ls]  # Add custom items (if any)
+        # Define standard items classes used in triples
+        classes_ls = [aa[col_nm] for col_nm in std_parse_items_ls + parse_cust_items_ls]
 
         # Add as OWL class for each standard and custom columns from the BigQuery table
         # Add custom field to explicitly declare the classes that are customised
-        for cls in classes_ls + [aa['custom_field']]:
+        for cls in classes_ls:
             g.add((cls, RDF.type, OWL.Class))
 
         """
         Object Triples - Pack individual triples from JSON files content
         """
-        object_ls = [aa['has_' + cls_nm] for cls_nm in classes_ls] + [aa['has_custom_field']]
+        object_ls = [aa['has_' + cls_nm] for cls_nm in classes_ls]
         for obj in object_ls:
             g.add((obj, RDF.type, OWL.ObjectProperty))
 
@@ -110,7 +108,7 @@ class MakeRDFLibGraph(beam.DoFn):
         """
         Add individuals
         """
-        for item_nm in std_parse_items_ls:
+        for item_nm in std_parse_items_ls + parse_cust_items_ls:
             val = element.get(item_nm)
 
             """
@@ -130,15 +128,22 @@ class MakeRDFLibGraph(beam.DoFn):
                 item_uri = BNode()
 
                 # Make literal as 'null'
-                item_lit = Literal(val)
+                item_lit = None
 
             # Add Literal and URI declaration for item
             g.add((item_uri, RDF.type, aa[item_nm]))
-            g.add((item_uri, RDFS.label, item_lit))
 
-            # Map reference IDs to the item
-            for ref_id in ref_id_ls:
-                g.add((aa[ref_id], aa['has_' + item_nm], aa[item_nm]))
+            if item_lit is not None:
+                g.add((item_uri, RDFS.label, item_lit))
+
+            # Map reference IDs to the individuals
+            for ref_cls_nm in ref_id_ls:
+                ref_val = element.get(ref_cls_nm)
+                obj_nm = 'has_' + item_nm
+                if item_lit is not None:
+                    g.add((aa[ref_val], aa[obj_nm], item_uri))
+                else:
+                    g.add((aa[ref_val], aa[obj_nm], BNode()))
 
         yield aa, g, out_path_ttl
 

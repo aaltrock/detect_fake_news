@@ -11,42 +11,26 @@ import rdflib
 from rdflib.namespace import Namespace
 from rdflib.namespace import OWL, RDF, RDFS, XSD
 from rdflib import URIRef, BNode, Literal
-import urllib
-from google.cloud import storage
 from google.cloud import bigquery
 from google.oauth2 import service_account
+from google.cloud import storage
 import apache_beam as beam
 from apache_beam.io import fileio
 from apache_beam.options.pipeline_options import PipelineOptions
 from apache_beam.options.pipeline_options import SetupOptions
 import hashlib
 
-
 # DoFn class to write Turtle strings into TTL text files
 class WriteTurtleJSON(beam.DoFn):
     def process(self, element):
-        url_hash = element[0]
-        ttl_str = element[1]
-        url_hash, url, domain, domain_hash, body_hash, body = element[2]
-        json_str = element[3]
-        output_path_ttl = element[4]
-        output_path_json = element[5]
+        aa, g, out_path_ttl, ttl_str = element
 
         # Write RDF Graph to Turtle
-        print('Outpath Turtle: {}'.format(output_path_ttl))
-        writer = fileio.filesystems.FileSystems.create(output_path_ttl)
+        writer = fileio.filesystems.FileSystems.create(out_path_ttl)
         writer.write(bytes(ttl_str, encoding='utf-8'))
         writer.close()
 
-        # Write news body to JSON string then write to file
-        print('Outpath JSON: {}'.format(output_path_json))
-        # json_str = json.dumps(news_body_dct, indent=4)
-        writer = fileio.filesystems.FileSystems.create(output_path_json)
-        writer.write(bytes(json_str, encoding='utf-8'))
-        writer.close()
-
-        # Output the tuple of text body to write separately to TTL file
-        yield url, body_hash, body
+        yield None
 
 
 # DoFn class to create a RDFLib graph with name space, classesand objects to populate entities later
@@ -89,7 +73,7 @@ class MakeRDFLibGraph(beam.DoFn):
 
         # Parse custom values (if any) to dictionary from string
         try:
-            custom_dct = json.loads(element.get('custom_columns').decode('UTF-8'))
+            custom_dct = json.loads(element.get('custom_columns'))
         except Exception as e:
             custom_dct = {}
 
@@ -99,20 +83,18 @@ class MakeRDFLibGraph(beam.DoFn):
         """
         Classes Triples
         """
-        # Define classes used in triples
-        classes_ls = [aa[col_nm] for col_nm in std_parse_items_ls]
-        if len(parse_cust_items_ls) > 0:
-            classes_ls += [aa[cust_nm] for cust_nm in parse_cust_items_ls]  # Add custom items (if any)
+        # Define standard items classes used in triples
+        classes_ls = [aa[col_nm] for col_nm in std_parse_items_ls + parse_cust_items_ls]
 
         # Add as OWL class for each standard and custom columns from the BigQuery table
         # Add custom field to explicitly declare the classes that are customised
-        for cls in classes_ls + [aa['custom_field']]:
+        for cls in classes_ls:
             g.add((cls, RDF.type, OWL.Class))
 
         """
         Object Triples - Pack individual triples from JSON files content
         """
-        object_ls = [aa['has_' + cls_nm] for cls_nm in classes_ls] + [aa['has_custom_field']]
+        object_ls = [aa['has_' + cls_nm] for cls_nm in classes_ls]
         for obj in object_ls:
             g.add((obj, RDF.type, OWL.ObjectProperty))
 
@@ -126,7 +108,7 @@ class MakeRDFLibGraph(beam.DoFn):
         """
         Add individuals
         """
-        for item_nm in std_parse_items_ls:
+        for item_nm in std_parse_items_ls + parse_cust_items_ls:
             val = element.get(item_nm)
 
             """
@@ -146,15 +128,22 @@ class MakeRDFLibGraph(beam.DoFn):
                 item_uri = BNode()
 
                 # Make literal as 'null'
-                item_lit = Literal(val)
+                item_lit = None
 
             # Add Literal and URI declaration for item
             g.add((item_uri, RDF.type, aa[item_nm]))
-            g.add((item_uri, RDFS.label, item_lit))
 
-            # Map reference IDs to the item
-            for ref_id in ref_id_ls:
-                g.add((aa[ref_id], aa['has_' + item_nm], aa[item_nm]))
+            if item_lit is not None:
+                g.add((item_uri, RDFS.label, item_lit))
+
+            # Map reference IDs to the individuals
+            for ref_cls_nm in ref_id_ls:
+                ref_val = element.get(ref_cls_nm)
+                obj_nm = 'has_' + item_nm
+                if item_lit is not None:
+                    g.add((aa[ref_val], aa[obj_nm], item_uri))
+                else:
+                    g.add((aa[ref_val], aa[obj_nm], BNode()))
 
         yield aa, g, out_path_ttl
 
@@ -204,6 +193,8 @@ def run(argv=None, save_main_session=True):
         dest='project',
         required=True,
         help='GCP project ID')
+
+
 
 
     known_args, pipeline_args = parser.parse_known_args(argv)
@@ -262,7 +253,7 @@ def run(argv=None, save_main_session=True):
                           | 'Shuffle' >> beam.transforms.util.Reshuffle()
                           | 'Make RDFLib graph' >> beam.ParDo(MakeRDFLibGraph(), known_args.output)
                           | 'Serialise RDFLib graph' >> beam.ParDo(SerializeRDFLibGraph())
-                          | 'Parallel write Turtles' >> beam.ParDo(WriteTurtleJSON())
+                          | 'Push to GraphDB' >> beam.ParDo(WriteTurtleJSON())
                           )
 
     result = p.run()
