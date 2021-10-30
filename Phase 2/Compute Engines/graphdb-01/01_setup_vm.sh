@@ -17,11 +17,11 @@ DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AX4XfWjfCxE1xwe
 sudo systemctl status chrome-remote-desktop@$USER
 
 # Set up Python
-mkdir -p /home/aaron_altrock/PycharmProjects/detect_fake_news_data_flow
+mkdir -p /home/aaron_altrock/PycharmProjects/detect_fake_news_data_flow_bs
 sudo apt-get install build-essential
 sudo apt-get install -y python3-venv
 sudo apt-get install git
-cd /home/aaron_altrock/PycharmProjects/detect_fake_news_data_flow
+cd /home/aaron_altrock/PycharmProjects/detect_fake_news_data_flow_bs
 python3 -m venv ./venv
 
 # Specific to Python script execution - 01_clean_csv_local_to_bucket.py
