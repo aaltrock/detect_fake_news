@@ -20,6 +20,7 @@ from apache_beam.options.pipeline_options import PipelineOptions
 from apache_beam.options.pipeline_options import SetupOptions
 import hashlib
 import urllib
+import dateutil
 
 # DoFn class to write Turtle strings into TTL text files
 class WriteTurtleJSON(beam.DoFn):
@@ -72,7 +73,7 @@ class MakeRDFLibGraph(beam.DoFn):
         Classes Triples
         """
         classes_ls = [aa.bodyHash, aa.urlHash,  aa.author, aa.title, aa.country,
-                      aa.language, aa.classification, aa.publication, aa.infoSource]
+                      aa.language, aa.classification, aa.publication, aa.infoSource, aa.extraClass]
 
         for cls in classes_ls:
             g.add((cls, RDF.type, OWL.Class))
@@ -82,7 +83,7 @@ class MakeRDFLibGraph(beam.DoFn):
         """
         object_ls = [aa.has_body_hash, aa.classified_by, aa.has_url_hash, aa.authored_by, aa.has_title_hash, aa.is_from_country,
                      aa.is_in_language, aa.has_classification, aa.is_published_by, aa.is_sourced_from,
-                     aa.published_on, aa.classified_on]
+                     aa.published_on, aa.classified_on, aa.has_extra_class, aa.is_extra_class]
 
         # Add custom predicates
         if len(list(custom_dct.keys())) > 0:
@@ -100,12 +101,12 @@ class MakeRDFLibGraph(beam.DoFn):
 
         # Add custom fields as data properties
         if len(list(custom_dct.keys())) > 0:
-            data_prop_ls += [aa['cf' + custom_field_nm] for custom_field_nm in list(custom_dct.keys())]
+            data_prop_ls += [aa['cf_' + custom_field_nm] for custom_field_nm in list(custom_dct.keys())]
 
-        if len(list(custom_dct.keys())) > 0:
-            for custom_col_nm in list(custom_dct.keys()):
-                class_nm = 'cf' + custom_col_nm
-                classes_ls += [aa[class_nm]]
+        # if len(list(custom_dct.keys())) > 0:
+        #     for custom_col_nm in list(custom_dct.keys()):
+        #         class_nm = 'cf' + custom_col_nm
+        #         classes_ls += [aa[class_nm]]
 
         for data_prop in data_prop_ls:
             g.add((data_prop, RDF.type, OWL.DataProperty))
@@ -116,80 +117,170 @@ class MakeRDFLibGraph(beam.DoFn):
 
         # Help func to coalesce values
         def __coalesce_val(dct, key):
-            if dct.get(key) is not None and dct.get(key) != 'null':
-                return dct.get(key)
+            if dct.get(key) is not None:
+                if str(dct.get(key)) != 'null':
+                    return str(dct.get(key))
+                else:
+                    return BNode()
             else:
                 return BNode()
 
+        # Helper func to guess data type
+        def __guess_data_type(val):
+            # Default to string data type
+            data_type = 'string'
+
+            # If value is None or 'null' return no data type
+            if val is None or val == 'null' or val == '':
+                return None
+            else:
+                val = str(val)
+
+            try:
+                val = int(val)
+                return 'integer'
+            except:
+                data_type = 'string'
+
+            try:
+                val = float(val)
+                return 'float'
+            except:
+                data_type = 'string'
+
+            try:
+                val = dateutil.parser(val)
+                return 'datetime'
+            except:
+                date_type = 'string'
+
+            return date_type
+
+
         # publication
-        pub_uri = aa[__coalesce_val(element, 'webpage_id')]
+        pub_uri = aa[urllib.parse.quote(__coalesce_val(element, 'webpage_id'))]
         pub_lit = Literal(__coalesce_val(element, 'webpage_id'))
         g.add((pub_uri, RDF.type, aa.publication))
         g.add((pub_uri, RDFS.label, pub_lit))
 
         # body_hash map to body
-        body_uri = aa[__coalesce_val(element, 'body_hash')]
+        body_uri = aa[urllib.parse.quote(__coalesce_val(element, 'body_hash'))]
         body_lit = Literal(__coalesce_val(element, 'body_hash'))
         g.add((body_uri, RDF.type, aa.bodyHash))
         g.add((body_uri, RDFS.label, body_lit))
         g.add((pub_uri, aa.has_body_hash, body_uri))
 
         # file_name_hash map to classification
-        file_name_uri = aa[__coalesce_val(element, 'file_name_hash')]
+        file_name_uri = aa[urllib.parse.quote(__coalesce_val(element, 'file_name_hash'))]
         file_name_lit = Literal(__coalesce_val(element, 'file_name_hash'))
         g.add((file_name_uri, RDF.type, aa.infoSource))
         g.add((file_name_uri, RDFS.label, file_name_lit))
         g.add((pub_uri, aa.is_sourced_from, file_name_uri))
 
         # label
-        label_uri = aa[__coalesce_val(element, 'label')]
+        label_uri = aa[urllib.parse.quote(__coalesce_val(element, 'label'))]
         label_lit = Literal(__coalesce_val(element, 'label'))
         g.add((label_uri, RDF.type, aa.Classification))
         g.add((label_uri, RDFS.label, label_lit))
         g.add((pub_uri, aa.has_classification, label_uri))
 
         # title_hash
-        title_uri = aa[__coalesce_val(element, 'title_hash')]
+        title_uri = aa[urllib.parse.quote(__coalesce_val(element, 'title_hash'))]
         title_lit = Literal(__coalesce_val(element, 'title_hash'))
         g.add((title_uri, RDF.type, aa.title))
         g.add((title_uri, RDFS.label, title_lit))
         g.add((pub_uri, aa.has_title_hash, title_uri))
 
         # url_hash
-        url_uri = aa[__coalesce_val(element, 'url_hash')]
+        url_uri = aa[urllib.parse.quote(__coalesce_val(element, 'url_hash'))]
         url_lit = Literal(__coalesce_val(element, 'uri_hash'))
         g.add((url_uri, RDF.type, aa.urlHash))
         g.add((url_uri, RDFS.label, url_lit))
         g.add((pub_uri, aa.has_url_hash, url_uri))
 
         # author_hash
-        author_uri = aa[__coalesce_val(element, 'author_hash')]
+        author_uri = aa[urllib.parse.quote(__coalesce_val(element, 'author_hash'))]
         author_lit = Literal(__coalesce_val(element, 'author_hash'))
         g.add((author_uri, RDF.type, aa.author))
         g.add((author_uri, RDFS.label, author_lit))
         g.add((pub_uri, aa.is_published_by, author_uri))
 
         # country_of_origin
-        country_uri = aa[__coalesce_val(element, 'country_of_origin')]
+        country_uri = aa[urllib.parse.quote(__coalesce_val(element, 'country_of_origin'))]
         country_lit = Literal(__coalesce_val(element, 'country_of_origin'))
         g.add((country_uri, RDF.type, aa.country))
-        g.add((country_uri, RDF.type, country_lit))
+        g.add((country_uri, RDFS.label, country_lit))
         g.add((pub_uri, aa.is_from_country, country_uri))
 
         # language
-        lang_uri = aa[__coalesce_val(element, 'language')]
+        lang_uri = aa[urllib.parse.quote(__coalesce_val(element, 'language'))]
         lang_lit = Literal(__coalesce_val(element, 'language'))
         g.add((lang_uri, RDF.type, aa.language))
-        g.add((lang_uri, RDF.type, lang_lit))
+        g.add((lang_uri, RDFS.label, lang_lit))
         g.add((pub_uri, aa.is_in_language, lang_uri))
 
-        # classification_date
+        # classification_date as data property
         g.add((pub_uri, aa.classifiedDate,
                Literal(__coalesce_val(element, 'classification_date'), datatype=XSD.dateTime)))
 
-        # publication_date
+        # publication_date as data property
         g.add((pub_uri, aa.publishedDate,
                Literal(__coalesce_val(element, 'published_on'), datatype=XSD.dateTime)))
+
+        """
+        Extra classes
+        """
+        # Custom columns (if exists)
+        cust_classes_ls = []
+        if len(list(custom_dct.keys())) > 0:
+            for custom_col_nm in list(custom_dct.keys()):
+                class_nm = 'cf_' + custom_col_nm
+                cust_classes_ls += [aa[class_nm]]
+
+        for cust_cls in cust_classes_ls:
+            g.add((cust_cls, RDF.type, OWL.Class))
+            g.add((pub_uri, aa.has_extra_class, cust_cls))
+
+        """
+        Extra classes individuals
+        """
+        # Custom field individuals as data properties
+        for cust_nm in custom_dct:
+            val = custom_dct.get(cust_nm)
+            data_type = __guess_data_type(val)
+
+            # # Determine the XSD data type
+            # if data_type is None:
+            #     data_type = BNode()
+            # elif data_type == 'string':
+            #     data_type = XSD.string
+            # elif data_type == 'integer':
+            #     data_type = XSD.integer
+            # elif data_type == 'float':
+            #     data_type = XSD.float
+            # elif data_type == 'datetime':
+            #     data_type = XSD.dateTime
+            # else:
+            #     data_type = XSD.string
+
+            # Add custom individual as data property
+            has_cust_nm = 'has_cf_' + cust_nm
+            cust_cls_nm = 'cf_' + cust_nm
+            if data_type is not None:
+                cust_uri = aa[urllib.parse.quote(__coalesce_val(custom_dct, cust_nm))]
+                cust_lit = Literal(__coalesce_val(custom_dct, cust_nm))
+                g.add((cust_uri, RDF.type, aa[cust_cls_nm]))
+                g.add((cust_uri, RDFS.label, cust_lit))
+                g.add((pub_uri, aa[has_cust_nm], cust_uri))
+                g.add((cust_uri, aa.has_extra_class, aa.extraClass))
+            else:
+                cust_uri = BNode()
+                cust_lit = Literal(__coalesce_val(custom_dct, cust_nm))
+                g.add((cust_uri, RDF.type, aa[cust_cls_nm]))
+                g.add((cust_uri, RDFS.label, cust_lit))
+                g.add((pub_uri, aa.has_extra_class, cust_uri))
+                g.add((cust_uri, aa.is_extra_class, aa.extraClass))
+
 
         yield aa, g, out_path_ttl
 
@@ -239,9 +330,6 @@ def run(argv=None, save_main_session=True):
         dest='project',
         required=True,
         help='GCP project ID')
-
-
-
 
     known_args, pipeline_args = parser.parse_known_args(argv)
 
