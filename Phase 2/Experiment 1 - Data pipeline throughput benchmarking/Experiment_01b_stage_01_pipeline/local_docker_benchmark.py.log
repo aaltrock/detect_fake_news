@@ -1,0 +1,34 @@
+b4bb6b5673b53badd4a82e892b7956679414ec83cc3e5dab0090429cbb2bae3d
+bbcb0d3d0628014ff57ab9d67786a6438819f74eb443fc530f12fb5831068a39
+Arguments:
+Namespace(bigquery_output_dataset='fake_news', bigquery_output_table='src_fake_news_local_docker1250', input='gs://src_fake_news_bs/to_add/risdal_1250.parquet', json_key_path='./fake-news-bs-detector-62e838f6b99c.json', processed_bucket_success='added', project='fake-news-bs-detector', source_bucket_base_path='to_add', source_bucket_name='src_fake_news_bs')
+Started at: 2021-11-06 01:06:41.590804
+Started at: 2021-11-06 01:06:41.591851
+Downloaded storage object template.yml from bucket src_fake_news_bs to local file template.yml.
+Blob to_add/risdal.parquet in bucket src_fake_news_bs moved to blob added/risdal.parquet in bucket src_fake_news_bs.
+Blob to_add/risdal.parquet.yml in bucket src_fake_news_bs moved to blob added/risdal.parquet.yml in bucket src_fake_news_bs.
+Blob to_add/risdal_10000.parquet in bucket src_fake_news_bs moved to blob added/risdal_10000.parquet in bucket src_fake_news_bs.
+Blob to_add/risdal_10000.parquet_10000.yml in bucket src_fake_news_bs moved to blob added/risdal_10000.parquet_10000.yml in bucket src_fake_news_bs.
+Blob to_add/risdal_1250.parquet in bucket src_fake_news_bs moved to blob added/risdal_1250.parquet in bucket src_fake_news_bs.
+Blob to_add/risdal_1250.parquet_1250.yml in bucket src_fake_news_bs moved to blob added/risdal_1250.parquet_1250.yml in bucket src_fake_news_bs.
+Blob to_add/risdal_2500.parquet in bucket src_fake_news_bs moved to blob added/risdal_2500.parquet in bucket src_fake_news_bs.
+Blob to_add/risdal_2500.parquet_2500.yml in bucket src_fake_news_bs moved to blob added/risdal_2500.parquet_2500.yml in bucket src_fake_news_bs.
+Blob to_add/risdal_5000.parquet in bucket src_fake_news_bs moved to blob added/risdal_5000.parquet in bucket src_fake_news_bs.
+Blob to_add/risdal_5000.parquet_5000.yml in bucket src_fake_news_bs moved to blob added/risdal_5000.parquet_5000.yml in bucket src_fake_news_bs.
+Blob to_add/risdal_7500.parquet in bucket src_fake_news_bs moved to blob added/risdal_7500.parquet in bucket src_fake_news_bs.
+Blob to_add/risdal_7500.parquet_7500.yml in bucket src_fake_news_bs moved to blob added/risdal_7500.parquet_7500.yml in bucket src_fake_news_bs.
+Completed at: 2021-11-06 01:08:31.670642
+Duration: 0:01:50.078791
+END
+Blob added/risdal.parquet in bucket src_fake_news_bs moved to blob to_add/risdal.parquet in bucket src_fake_news_bs.
+Blob added/risdal.parquet.yml in bucket src_fake_news_bs moved to blob to_add/risdal.parquet.yml in bucket src_fake_news_bs.
+Blob added/risdal_10000.parquet in bucket src_fake_news_bs moved to blob to_add/risdal_10000.parquet in bucket src_fake_news_bs.
+Blob added/risdal_10000.parquet_10000.yml in bucket src_fake_news_bs moved to blob to_add/risdal_10000.parquet_10000.yml in bucket src_fake_news_bs.
+Blob added/risdal_1250.parquet in bucket src_fake_news_bs moved to blob to_add/risdal_1250.parquet in bucket src_fake_news_bs.
+Blob added/risdal_1250.parquet_1250.yml in bucket src_fake_news_bs moved to blob to_add/risdal_1250.parquet_1250.yml in bucket src_fake_news_bs.
+Blob added/risdal_2500.parquet in bucket src_fake_news_bs moved to blob to_add/risdal_2500.parquet in bucket src_fake_news_bs.
+Blob added/risdal_2500.parquet_2500.yml in bucket src_fake_news_bs moved to blob to_add/risdal_2500.parquet_2500.yml in bucket src_fake_news_bs.
+Blob added/risdal_5000.parquet in bucket src_fake_news_bs moved to blob to_add/risdal_5000.parquet in bucket src_fake_news_bs.
+Blob added/risdal_5000.parquet_5000.yml in bucket src_fake_news_bs moved to blob to_add/risdal_5000.parquet_5000.yml in bucket src_fake_news_bs.
+Blob added/risdal_7500.parquet in bucket src_fake_news_bs moved to blob to_add/risdal_7500.parquet in bucket src_fake_news_bs.
+Blob added/risdal_7500.parquet_7500.yml in bucket src_fake_news_bs moved to blob to_add/risdal_7500.parquet_7500.yml in bucket src_fake_news_bs.

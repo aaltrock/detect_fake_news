@@ -1,0 +1,33 @@
+custom_columns:
+- likes
+- comments
+- shares
+- replies_count
+- participants_count
+- spam_score
+- main_img_url
+mandatory_columns:
+  body:
+    column_name: text
+  file_name:
+    column_name: file_name
+  label:
+    column_name: type
+  title:
+    column_name: title
+  url:
+    column_name: site_url
+source: https://www.kaggle.com/mrisdal/fake-news
+supplementary_columns:
+  author:
+    column_name: author
+  classification_date:
+    column_name: crawled
+  country_of_origin:
+    column_name: country
+  detailed_news_label:
+    column_name: ''
+  language:
+    column_name: language
+  publication_date:
+    column_name: published

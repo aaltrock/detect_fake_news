@@ -85,11 +85,11 @@ class MakeRDFLibGraph(beam.DoFn):
                      aa.is_in_language, aa.has_classification, aa.is_published_by, aa.is_sourced_from,
                      aa.published_on, aa.classified_on, aa.has_extra_class, aa.is_extra_class]
 
-        # Add custom predicates
-        if len(list(custom_dct.keys())) > 0:
-            for custom_col_nm in list(custom_dct.keys()):
-                obj_nm = 'has_cf_' + custom_col_nm
-                object_ls += [aa[obj_nm]]
+        # # Add custom predicates
+        # if len(list(custom_dct.keys())) > 0:
+        #     for custom_col_nm in list(custom_dct.keys()):
+        #         obj_nm = 'has_cf_' + custom_col_nm
+        #         object_ls += [aa[obj_nm]]
 
         for obj in object_ls:
             g.add((obj, RDF.type, OWL.ObjectProperty))
@@ -99,9 +99,9 @@ class MakeRDFLibGraph(beam.DoFn):
         """
         data_prop_ls = [aa.publishedDate, aa.classifiedDate]
 
-        # Add custom fields as data properties
-        if len(list(custom_dct.keys())) > 0:
-            data_prop_ls += [aa['cf_' + custom_field_nm] for custom_field_nm in list(custom_dct.keys())]
+        # # Add custom fields as data properties
+        # if len(list(custom_dct.keys())) > 0:
+        #     data_prop_ls += [aa['cf_' + custom_field_nm] for custom_field_nm in list(custom_dct.keys())]
 
         # if len(list(custom_dct.keys())) > 0:
         #     for custom_col_nm in list(custom_dct.keys()):
@@ -225,7 +225,7 @@ class MakeRDFLibGraph(beam.DoFn):
 
         # publication_date as data property
         g.add((pub_uri, aa.publishedDate,
-               Literal(__coalesce_val(element, 'published_on'), datatype=XSD.dateTime)))
+               Literal(__coalesce_val(element, 'publication_date'), datatype=XSD.dateTime)))
 
         """
         Extra classes
@@ -249,37 +249,45 @@ class MakeRDFLibGraph(beam.DoFn):
             val = custom_dct.get(cust_nm)
             data_type = __guess_data_type(val)
 
-            # # Determine the XSD data type
-            # if data_type is None:
-            #     data_type = BNode()
-            # elif data_type == 'string':
-            #     data_type = XSD.string
-            # elif data_type == 'integer':
-            #     data_type = XSD.integer
-            # elif data_type == 'float':
-            #     data_type = XSD.float
-            # elif data_type == 'datetime':
-            #     data_type = XSD.dateTime
-            # else:
-            #     data_type = XSD.string
+            # Determine the XSD data type
+            if data_type is None:
+                data_type = BNode()
+            elif data_type == 'string':
+                data_type = XSD.string
+            elif data_type == 'integer':
+                data_type = XSD.integer
+            elif data_type == 'float':
+                data_type = XSD.float
+            elif data_type == 'datetime':
+                data_type = XSD.dateTime
+            else:
+                data_type = XSD.string
 
             # Add custom individual as data property
             has_cust_nm = 'has_cf_' + cust_nm
             cust_cls_nm = 'cf_' + cust_nm
             if data_type is not None:
+                cust_data_prop = aa[urllib.parse.quote('cf_' + cust_nm)]
                 cust_uri = aa[urllib.parse.quote(__coalesce_val(custom_dct, cust_nm))]
-                cust_lit = Literal(__coalesce_val(custom_dct, cust_nm))
-                g.add((cust_uri, RDF.type, aa[cust_cls_nm]))
-                g.add((cust_uri, RDFS.label, cust_lit))
-                g.add((pub_uri, aa[has_cust_nm], cust_uri))
-                g.add((cust_uri, aa.has_extra_class, aa.extraClass))
+                cust_lit = Literal(__coalesce_val(custom_dct, cust_nm), datatype=data_type)
+                # g.add((cust_uri, RDF.type, aa[cust_cls_nm]))
+                g.add((cust_data_prop, RDF.type, OWL.DataProperty))
+                # g.add((cust_uri, RDFS.label, cust_lit))
+                # g.add((pub_uri, aa[has_cust_nm], cust_uri))
+                # g.add((cust_uri, aa.has_extra_class, aa.extraClass))
+                g.add((pub_uri, aa.has_extra_class, aa.extraClass))
+                g.add((pub_uri, cust_data_prop, cust_lit))
             else:
+                cust_data_prop = aa[urllib.parse.quote('cf_' + cust_nm)]
                 cust_uri = BNode()
                 cust_lit = Literal(__coalesce_val(custom_dct, cust_nm))
-                g.add((cust_uri, RDF.type, aa[cust_cls_nm]))
-                g.add((cust_uri, RDFS.label, cust_lit))
-                g.add((pub_uri, aa.has_extra_class, cust_uri))
-                g.add((cust_uri, aa.is_extra_class, aa.extraClass))
+                # g.add((cust_uri, RDF.type, aa[cust_cls_nm]))
+                g.add((cust_data_prop, RDF.type, OWL.DataProperty))
+                # g.add((cust_uri, RDFS.label, cust_lit))
+                # g.add((pub_uri, aa[has_cust_nm], cust_uri))
+                # g.add((cust_uri, aa.has_extra_class, aa.extraClass))
+                g.add((pub_uri, aa.has_extra_class, aa.extraClass))
+                g.add((pub_uri, cust_data_prop, cust_lit))
 
 
         yield aa, g, out_path_ttl
