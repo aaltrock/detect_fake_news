@@ -338,11 +338,6 @@ def run(argv=None, save_main_session=True):
         dest='project',
         required=True,
         help='GCP project ID')
-    parser.add_argument(
-        '--sample_size',
-        dest='sample_size',
-        required=True,
-        help='Benchmark sample size')
 
     known_args, pipeline_args = parser.parse_known_args(argv)
 
@@ -369,18 +364,18 @@ def run(argv=None, save_main_session=True):
             article_id
             ,url
             ,MAX(etl_timestamp) AS etl_timestamp
-            FROM `fake-news-bs-detector.fake_news.src_fake_news_{}`
+            FROM `fake-news-bs-detector.fake_news.src_fake_news`
             GROUP BY article_id, url
         )
         SELECT 
         orig.*
         FROM LATEST_TIMESTAMP_CTE AS latest
-        INNER JOIN `fake-news-bs-detector.fake_news.src_fake_news_{}` AS orig
+        INNER JOIN `fake-news-bs-detector.fake_news.src_fake_news` AS orig
         ON orig.article_id = latest.article_id
         AND orig.url = latest.url
         AND orig.etl_timestamp = latest.etl_timestamp;
 
-    """.format(known_args.sample_size, known_args.sample_size)
+    """
 
     # Authenticate into GCP BigQuery
     # Ref: https://cloud.google.com/bigquery/docs/authentication/service-account-file

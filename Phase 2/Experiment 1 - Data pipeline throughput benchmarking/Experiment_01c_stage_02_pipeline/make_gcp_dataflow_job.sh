@@ -10,4 +10,4 @@ export REGION=$3
 gsutil mv gs://src_fake_news_bs/added/*.* gs://src_fake_news_bs/to_add/
 
 # Create a GCP DataFlow job to run according to job name, sample size and GCP region
-gcloud dataflow jobs run $JOB_NAME --gcs-location gs://src_fake_news_bs/template1_$SAMPLE_SIZE --region $REGION --staging-location gs://src_fake_news_bs/tmp
+gcloud dataflow jobs run $JOB_NAME --gcs-location gs://src_fake_news_bs/template2_$SAMPLE_SIZE --region $REGION --staging-location gs://src_fake_news_bs/staging
