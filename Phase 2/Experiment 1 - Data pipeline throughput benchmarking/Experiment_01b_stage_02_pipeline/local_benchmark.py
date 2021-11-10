@@ -29,13 +29,19 @@ def run(argv=None, save_main_session=True):
     json_key_path = './fake-news-bs-detector-62e838f6b99c.json'
     os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = json_key_path
 
+    project = 'fake-news-bs-detector'
+    repo='europe-west2-docker.pkg.dev/fake-news-bs-detector/dataflow-docker-stage-02'
+    tag = 'latest'
+    image_uri = 'gcr.io/' + project + '/' + repo + ':' + tag
+
     repeat_nr = 5
 
     performance_res_ls = []
     for sample_sz in [1250, 2500, 5000, 7500, 10000]:
         for i in range(repeat_nr):
             # Paramters to include when executing the Python pipeline
-            param_str = '--input gs://src_fake_news_bs/added --output gs://src_fake_news_bs/added_ttl_json_' + str(sample_sz) + ' --runner=DirectRunner --environment_type=LOOPBACK --project=fake-news-bs-detector --staging_location=gs://src_fake_news_bs/staging_02/ --temp_location=gs://src_fake_news_bs/tmp/ --requirements_file=./requirements_02_bigquery_to_bucket_dataflow.py --source_bucket_name=src_fake_news_bs --bigquery_dataset=fake_news --bigquery_table=src_fake_news --json_key_path=' + json_key_path + ' --sample_size=' + str(sample_sz)
+            # param_str = '--input gs://src_fake_news_bs/added --output gs://src_fake_news_bs/added_ttl_json_' + str(sample_sz) + ' --runner=DirectRunner --environment_type=LOOPBACK --project=fake-news-bs-detector --staging_location=gs://src_fake_news_bs/staging_02/ --temp_location=gs://src_fake_news_bs/tmp/ --requirements_file=./requirements_02_bigquery_to_bucket_dataflow.py --source_bucket_name=src_fake_news_bs --bigquery_dataset=fake_news --bigquery_table=src_fake_news --json_key_path=' + json_key_path + ' --sample_size=' + str(sample_sz)
+            param_str = '--input=gs://src_fake_news_bs/added --output=gs://src_fake_news_bs/added_ttl_json_' + str(sample_sz) + ' --runner=PortableRunner --job_endpoint=embed --project=fake-news-bs-detector --staging_location=gs://src_fake_news_bs/staging_02/ --temp_location=gs://src_fake_news_bs/tmp/ --source_bucket_name=src_fake_news_bs --bigquery_dataset=fake_news --bigquery_table=src_fake_news --json_key_path=' + json_key_path + ' --environment_type=DOCKER --environment_config=' + image_uri + ' --sample_size=' + str(sample_sz)
 
             start_tm = datetime.datetime.now()
 
@@ -52,7 +58,7 @@ def run(argv=None, save_main_session=True):
     # At the end of the run, transform the list of results into data frame
     fields_nm_ls = ['Sample Size', 'Iteration', 'Start Time', 'End Time', 'Duration']
     benchmark_res_df = pd.DataFrame(performance_res_ls, columns=fields_nm_ls)
-    benchmark_res_df.to_csv('direct_runner_stage_2_benchmark_res_df.csv', index=False)
+    benchmark_res_df.to_csv('docker_local_stage_2_benchmark_res_df.csv', index=False)
 
     print('END OF BENCHMARKING')
 
