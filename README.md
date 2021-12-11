@@ -1,2 +1,2 @@
 # detect_fake_news
-Near real-time detection of fake news using knowledge graph and cloud technologies
+GCP implementation with big data ingestion with GCP Data Flow and hosting of a semantics web with GraphDB.
