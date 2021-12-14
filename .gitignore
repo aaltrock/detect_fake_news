@@ -1,5 +1,6 @@
 # Keys to GCP bucket storage
 *.key.json
+fake-news-bs-detector-62e838f6b99c.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -130,4 +131,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.DS_Store
+.DS_Store
 .DS_Store
