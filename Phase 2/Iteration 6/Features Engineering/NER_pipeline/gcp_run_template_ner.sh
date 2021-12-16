@@ -1,0 +1,1 @@
+gcloud dataflow jobs run dataflow-docker-ner --gcs-location gs://src_fake_news_bs/template_ner --region europe-west2 --staging-location gs://src_fake_news_bs/tmp
