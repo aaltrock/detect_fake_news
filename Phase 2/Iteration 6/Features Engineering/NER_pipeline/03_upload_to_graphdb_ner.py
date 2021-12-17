@@ -49,7 +49,7 @@ def run(argv=None, save_main_session=True):
         '--sync_shell_path',
         dest='sync_shell_path',
         help='Path to the Bash shell script to sync with GCP Cloud storage for the TTL documents',
-        default='/home/aaron_altrock/PycharmProjects/detect_fake_news_data_flow_bs/sync_graph_import_folder_ner.sh')
+        default=r'/home/aaron_altrock/PycharmProjects/detect_fake_news_data_flow_bs/Iteration 6/Features Engineering/NER_pipeline/sync_graph_import_folder_ner.sh')
 
     known_args, pipeline_args = parser.parse_known_args(argv)
 
